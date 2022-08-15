@@ -1,0 +1,2940 @@
+/************************ Common Css - Start ***********************/
+
+// @font-face {
+// 	font-family: muli;
+// 	src: url('../fonts/muli/');
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+//   }
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+td {
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.w-m-20 {
+    max-width: 22% !important;
+}
+
+.m-t-0 {
+    margin-top: 0px !important;
+}
+
+
+/************************ Common Css - End ***********************/
+
+.main_header {
+    position: fixed;
+    width: calc(100% - 100px);
+    z-index: 999999;
+    height: 70px;
+    background: rgb(35, 75, 90);
+    background: linear-gradient(87deg, rgba(35, 75, 90, 1) 0%, rgba(23, 103, 116, 1) 50%, rgba(14, 125, 135, 1) 100%);
+}
+
+.sideNav .siteName {
+    height: 71px;
+    background-color: #224c5b;
+    padding-left: 2px;
+}
+
+.sideNav .siteName h4 {
+    font-size: 19px;
+    color: #fff;
+    padding: 25px 5px;
+}
+
+.main_header p {
+    padding: 21px;
+    font-size: 19px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.calender-Div {
+    // font-size: 16px;
+    width: 100%;
+    padding: 11px 10px;
+    border: 1px solid #01b1b1;
+    border-radius: 2px;
+}
+
+.calender-Div i:nth-child(1) {
+    margin-right: 20px;
+}
+
+.calender-Div i:last-child {
+    float: right;
+    cursor: pointer;
+}
+
+.calender-Box {
+    border-radius: 3px;
+    border: .5px solid #B9DCDC;
+    background: #ffff;
+    box-shadow: 2px 2px 5px 0px rgba(163, 160, 163, 1);
+    padding: 20px 0px 20px;
+    position: absolute;
+    z-index: 999;
+    top: 50px;
+    left: 250px;
+    width: 100%;
+    display: none;
+}
+
+#cerdit-card .calender-Box {
+    top: 63%;
+    left: 90%;
+    min-width: 300px;
+}
+
+.calender-Box .commonDiv {
+    text-align: center;
+    margin: 20px 0px;
+    border: 1px solid #B9DCDC;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.calender-Box .commonDiv:hover {
+    color: #fff;
+    background: rgb(14, 125, 135);
+    background: linear-gradient(87deg, rgba(14, 125, 135, 1) 0%, rgba(23, 103, 116, 1) 50%, rgba(34, 76, 91, 1) 100%);
+}
+
+.calender-Box input,
+.calender-Box .from-Calender {
+    border-radius: 3px !important;
+    padding: 7px 10px !important;
+    border: .5px solid #B9DCDC !important;
+}
+
+.calender-Box .from-Calender i {
+    margin-right: 5px;
+}
+
+.main_header .loginText {
+    padding: 21px;
+    text-align: right;
+    font-size: 19px;
+    color: #fff;
+}
+
+#main .sideNav {
+    position: fixed;
+    height: calc(100vh);
+    background: #fff;
+    z-index: 1040;
+    will-change: transform;
+    transition: transform 800ms ease-in-out;
+    padding: 0px !important;
+    width: 100px;
+    top: -1px;
+}
+
+#main .sideNav .nav-tabs>li a {
+    color: #8da4b1;
+    text-align: center;
+    font-size: 40px;
+}
+
+#main .sideNav .nav-tabs {
+    border: none;
+    padding-top: 30px;
+    height: calc(100vh);
+}
+
+#main .sideNav .nav-tabs>li a:hover {
+    background-color: transparent;
+    // border: none;
+    outline: none;
+    border-color: #fff;
+}
+
+#main .sideNav .nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    color: #1a4862;
+    border: none;
+    padding: 0px 15px;
+}
+
+#main .sideNav .nav-tabs>li.active {
+    border-right: 5px solid #01b1b1;
+}
+
+#main .maincontent {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    padding: 0px 0px 0px;
+
+}
+.maincontent.col-lg-9{
+    position: relative;
+    top: 0px;
+}
+
+#main .maincontent .tabs-Div .nav-tabs>li a {
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    color: darkgray;
+}
+
+#main .maincontent .tabs-Div .nav-tabs>li.active>a {
+    border: none;
+    border-bottom: 1px solid #babfc5;
+    font-size: 18px;
+    padding: 0;
+    color: #1a4862;
+    font-weight: 600;
+}
+
+#main .maincontent .tabs-Div .nav-tabs>li:nth-child(2) {
+    margin-left: 25px;
+}
+
+#main .maincontent .tabs-Div .nav-tabs {
+    border: none;
+    padding: 0px 50px 0px 30px;
+}
+
+.date {
+    color: #fff;
+}
+
+#main .maincontent .tabs-Div {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #babfc5;
+    margin-top: 115px;
+}
+
+#main .maincontent #card .tabs-content {
+    background-color: #fafafa;
+    padding: 30px 50px 50px 30px;
+    width: 100%;
+}
+
+#manager,
+#cerdit-card {
+    background-color: #fafafa;
+    padding: 70px 50px;
+    width: 100%;
+}
+
+#manager .table-div-credit-card {
+    max-width: 100% !important;
+}
+
+#manager .table-div-credit-card table>thead>tr>th:nth-child(1) {
+    width: 25% !important;
+}
+
+#manager .table-div-credit-card table>thead>tr>th:nth-child(2) {
+    width: 1% !important;
+}
+
+#manager .calender-Box {
+    // max-width: 75%;
+    top: 84%;
+    left: 48%;
+}
+
+#manager .managerLabelText,
+#manager .table-div-credit-card {
+    width: 100%;
+    max-width: 500px !important;
+}
+
+#manager .managerLabelText label {
+    font-size: 16px;
+    color: #757575;
+    font-weight: 500;
+}
+
+#manager .managerLabelText label.viewAllText {
+    font-size: 14px;
+    color: #2A3A4B;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#manager .calender-Div {
+    max-width: 75%;
+}
+
+#main .maincontent .mainContent {
+    margin-top: 50px;
+}
+
+#main .maincontent #card .tabs-content #activity p {
+    color: #babfc5;
+}
+
+#main .maincontent #card .tabs-content #activity h4,
+#operation .tableDiv h4,
+#operation .activity-target h4,
+#operation .optimal-div h4 {
+    font-size: 22px;
+    margin-top: 5px;
+    color: #224c5b;
+    font-weight: 500;
+}
+
+#main .maincontent #card .tabs-content #activity .selectDiv {
+    margin-top: 20px;
+    display: flex;
+}
+
+#main .maincontent #card .tabs-content #activity .selectDiv .departmentSelect label,
+#main .maincontent #card .tabs-content #activity .selectDiv .assignBySelect label,
+#operation .multiple-select-options .selectDiv label {
+    width: 100%;
+    font-weight: 100;
+    color: #babfc5;
+}
+
+#main .maincontent #card .tabs-content #activity .selectDiv .departmentSelect select {
+    width: 100%;
+}
+
+#main .maincontent #card .tabs-content #activity .selectDiv .assignBySelect {
+    margin-left: 50px;
+}
+
+#main .maincontent #card .tabs-content #activity .selectDiv .assignBySelect select {
+    width: 100%;
+    min-width: 107px;
+}
+
+#cerdit-card .activity-Table .triangle {
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 28px 28px 0 0;
+    border-color: #FFA189 transparent transparent transparent;
+    left: 15px;
+    top: 70px;
+}
+
+.employeecontent #cerdit-card .activity-Table .triangle {
+    top: 0px !important;
+    left: 0px !important;
+    border-color: #ffff00 transparent transparent transparent;
+}
+
+.employeecontent #cerdit-card .activity-Table table tbody>tr>td {
+    position: relative;
+}
+
+.row-click-employee-data .table-card-div .triangle,
+.employee-Table .table-card-div .triangle {
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 28px 28px 0 0;
+    border-color: #FFA189 transparent transparent transparent;
+    left: 0px;
+    top: 0px;
+}
+
+.triangle {
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 28px 28px 0 0;
+    border-color: #FFA189 transparent transparent transparent;
+    left: 0px;
+    top: 0px;
+}
+
+.dateSelect input,
+#main .maincontent #card .tabs-content #activity .selectDiv .departmentSelect select,
+#main .maincontent #card .tabs-content #activity .selectDiv .assignBySelect select {
+    padding: 11px 10px;
+    border-color: #bceaea;
+    border: 1px solid #01B1B1;
+}
+
+#main .maincontent #card .tabs-content #activity .selectDiv .departmentSelect select:focus,
+#main .maincontent #card .tabs-content #activity .selectDiv .assignBySelect select:focus {
+    outline-color: #bceaea;
+}
+
+#main .maincontent #card .tabs-content .create-new-activity {
+    margin-top: 10px;
+}
+
+#main .maincontent #card .tabs-content .create-new-activity .createActivity {
+    background: #2a3a4b;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 60%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#main .maincontent #card .tabs-content .create-new-activity .editActivityText {
+    padding: 10px 20px;
+    color: #838e98;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 60%;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv {
+    margin-top: 80px;
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv thead,
+#operation .tableDiv thead,
+#manager .table-div-activity thead ,tfoot{
+    background-color: #c0ebeb;
+}
+
+.table-card-div thead, tfoot{
+    background-color: #c0ebeb;
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv thead tr th,
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv table,
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv table tbody tr td {
+    border: none;
+}
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv thead tr th{
+    border: solid 1px #aaa;
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv table {
+    margin-bottom: 0px;
+}
+
+#assignActivity tr td {
+    background-color: #fff;
+}
+
+
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv table tbody td select {
+    border: none;
+    width: 100%
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv .multiInputs {
+    display: flex;
+    justify-content: flex-start;
+    width: calc(100% - 90px);
+    .hourMintues {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70px;
+        input {
+            padding-right: 10px;
+        }
+        span {
+            margin-right: 15px;
+        }
+    }
+    .percentageDiv {
+        display: flex;
+        justify-content: spac;
+        span {left: auto;
+            right: -8px;
+            top: 1px;
+        }
+    }
+}
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv {
+    tbody {
+        td {
+            &:nth-child(3) {
+                p {
+                    a {
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .text-center {
+                p {
+                    &:first-child {
+                        margin-right: 10px;
+                    }
+                }
+                i {
+                    &:before {
+                        color: #2a3a4b;
+                    }
+                }
+            }
+        }
+    }
+    .tfoot {
+        td {
+            background-color: #2a3a4b !important;
+            p {
+                color: #fff !important;
+            }
+            &:first-child {
+                font-size: 10px;
+                strong {
+                    font-size: 15px;
+                }
+            }
+            &.assign-time {
+                span {
+                    margin: 0 12px 0 5px;
+                }
+            }
+        }
+        .multiInputs {
+            .timeParaText {
+                display: flex;
+                justify-content: space-between;
+                width: 70px;
+            }
+        }
+    }
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv .multiInputs input {
+    width: 50px;
+    margin: 0;
+    border: none;
+}
+
+#main .maincontent #card .tabs-content .assignActivityDiv .tableDiv table tbody td p i {
+    float: right;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.noActivity {
+    color: #1a4862 !important;
+    padding: 15px 11px;
+}
+
+.addActivity {
+    color: #1a4862 !important;
+    padding: 0px 11px 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#assignActivity tr td .fa-ellipsis-v {
+    color: #56caca;
+    cursor: pointer;
+}
+
+#finish-exsisting-location,
+#operation .tableDiv {
+    margin-top: 50px;
+}
+
+#finishButtonDiv,
+#finishLoanButtonDiv,
+#finishTableButtonDiv,
+#finishTargetButtonDiv,
+#finishOptimalButtonDiv {
+    width: 100%;
+    margin-top: 50px;
+    // display: none;
+}
+
+#finishButtonDiv p,
+#finishLoanButtonDiv p {
+    text-align: center;
+}
+
+#finishButtonDiv p .finishBtn,
+#finishLoanButtonDiv p .finishBtn,
+#finishAllocationButtonDiv p .finishBtn,
+#finish-exsisting-location p .finishBtn,
+#finishTableButtonDiv p .finishBtn,
+#finishTargetButtonDiv p .finishBtn,
+#finishOptimalButtonDiv p .finishBtn {
+    background: #ffa189;
+    padding: 7px 30px;
+    color: #1a4862;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#finishButtonDiv p .cancleBtn,
+#finishLoanButtonDiv p .cancleBtn,
+#finishAllocationButtonDiv p .cancleBtn,
+#finish-exsisting-location p .cancleBtn,
+#finishTableButtonDiv p .cancleBtn,
+#finishTargetButtonDiv p .cancleBtn,
+#finishOptimalButtonDiv p .cancleBtn {
+    background-color: #1a4862;
+    padding: 7px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.totalDiv {
+    background: #2a3a4b;
+    padding: 10px 5px;
+    max-width: 96%;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.totalDiv p {
+    color: #Fff !important;
+    font-size: 10px;
+}
+
+.totalDiv p strong {
+    font-size: 15px;
+}
+
+.totalDiv .timeParaText {
+    font-size: 15px;
+    padding: 0px 60px;
+}
+
+.totalDiv .percentageText {
+    font-size: 15px;
+}
+
+.tableDiv,
+#cerdit-card .activity-Table table>tr>td {
+    position: relative;
+}
+
+.tableDiv .menuDiv {
+    position: absolute;
+    top: 51px;
+    right: -115px;
+    display: none;
+}
+
+.tableDiv .menuDiv ul {
+    list-style: none;
+    background: #fff;
+    padding: 10px 15px 0px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.tableDiv .menuDiv ul li {
+    font-size: 12px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.tableDiv .menuDiv ul li:nth-child(1) {
+    border-bottom: 1px solid;
+}
+
+#deleteModal .modal-dialog {
+    margin-top: 150px;
+}
+
+#deleteModal .modal-content {
+    border-radius: 0px;
+    border: 1px solid #01b1b1;
+}
+
+#deleteModal .modal-header {
+    border: none;
+}
+
+#deleteModal .modal-title {
+    font-weight: 600;
+    color: #2a3a4b;
+}
+
+#deleteModal p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2a3a4b !important;
+}
+
+#deleteModal .modal-body {
+    padding: 29px 35px 50px;
+}
+
+#deleteModal .close {
+    float: right;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    filter: alpha(opacity=20);
+    opacity: 2;
+}
+
+#deleteModal .modal-footer {
+    text-align: initial;
+}
+
+#deleteModal .buttonDiv {
+    margin-top: 45px;
+}
+
+#deleteModal .buttonDiv .finishButtonDiv a {
+    background: #ffb5a3;
+    padding: 13px 30px;
+    border-radius: 3px;
+    color: #2a3a4b;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.modal .modal-dialog {
+    margin-top: 150px;
+}
+
+.modal .modal-content {
+    border-radius: 0px;
+    border: 1px solid #01b1b1;
+}
+
+.modal .modal-header {
+    border: none;
+}
+
+.modal .modal-title {
+    font-weight: 600;
+    color: #2a3a4b;
+}
+
+.modal p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2a3a4b !important;
+}
+
+.modal .modal-body {
+    padding: 29px 35px 50px;
+}
+
+.modal .close {
+    float: right;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    filter: alpha(opacity=20);
+    opacity: 2;
+}
+
+.modal .modal-footer {
+    text-align: initial;
+}
+
+.modal .buttonDiv {
+    margin-top: 45px;
+}
+
+.modal .buttonDiv .finishButtonDiv a {
+    background: #ffb5a3;
+    padding: 13px 30px;
+    border-radius: 3px;
+    color: #2a3a4b;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+.cancelDelete {
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+.editActivity,
+.newActivity {
+    background-color: #f5f8fa;
+    // display: none;
+}
+
+.editActivity h4,
+.newActivity h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #1a4862;
+}
+
+.employeecontent #cerdit-card .performance-overview .table-performance-overview,
+#cerdit-card .all-notes-div .table-div,
+#cerdit-card .all-notes-div,
+#cerdit-card .table-card-div,
+.editActivity .drop-down-div,
+#manager .activity-overview,
+#manager .table-div-activity,
+#manager .table-performance-overview {
+    margin-top: 60px;
+}
+
+.editActivity .drop-down-div label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.editActivity .drop-down-div select,
+.editActivity .drop-down-div .custom-field input {
+    margin-top: 10px;
+    border: navajowhite;
+    width: 250px;
+    padding: 10px 10px;
+    -webkit-box-shadow: 0 4px 2px -2px #ccc;
+    -moz-box-shadow: 0 4px 2px -2px #ccc;
+    box-shadow: 0px 3px 8px #ccc;
+    border-radius: 5px;
+}
+
+.editActivity .multi-Drop-Down {
+    width: 100%;
+    max-width: 70%;
+}
+
+.editActivity .drop-down-div .addAllocationText,
+.form-Div .addAllocationText {
+    padding: 0px 20px 0px 0px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #1a4862 !important;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.editActivity .drop-down-div .removeText,
+.removeText {
+    padding: 0px 20px;
+    color: #1a4862;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.editActivity .drop-down-div .addAllocationDiv .custom-select {
+    margin-bottom: 15px;
+}
+
+.editActivity .drop-down-div p {
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgrey;
+    margin: 20px 0px;
+}
+
+.create-activity-form-div,
+#operation .activity-target,
+#operation .optimal-div {
+    margin-top: 40px;
+}
+
+.create-activity-form-div h5 {
+    font-size: 20px;
+    color: #1a4862
+}
+
+.create-activity-form-div .same-text-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: darkgrey;
+}
+
+.create-activity-form-div .form-Div {
+    margin-top: 20px;
+}
+
+.input-form,
+.select-form {
+    margin-top: 10px;
+    border: navajowhite;
+    width: 250px;
+    padding: 10px 10px;
+    -webkit-box-shadow: 0 4px 2px -2px #ccc;
+    -moz-box-shadow: 0 4px 2px -2px #ccc;
+    box-shadow: 0px 3px 8px #ccc;
+    border-radius: 5px;
+}
+
+.create-activity-form-div .form-Div .select-division-departmet,
+.create-activity-form-div .form-Div .allocate-activity-div {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 70%;
+}
+
+.select-division-departmet span {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #224c5b;
+}
+
+.multiple-select-options {
+    width: 100%;
+    max-width: 50%;
+}
+
+.multiple-select-options .selectDiv select {
+    padding: 11px 10px;
+    border-color: #bceaea;
+    width: 100%;
+}
+
+#operation .tableDiv thead tr td {
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #224c7f;
+}
+
+#operation .tableDiv tbody tr td {
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #224c7f;
+}
+
+#operation .tableDiv table {
+    margin-top: 30px;
+    width: 100%;
+    // max-width: 90%;
+}
+
+#operation .tableDiv table thead tr td {
+    padding: 14px 10px 14px 25px !important;
+}
+
+#operation .tableDiv table tbody tr td:first-child {
+    text-align: left;
+}
+
+#operation .tableDiv table tbody tr td {
+    background-color: #fff;
+    padding: 26px 25px 22px 25px !important;
+    text-align: center;
+}
+
+#operation .tableDiv table thead tr td:last-child,
+#operation .tableDiv table tbody tr td:last-child {
+    background-color: #224c5b;
+    color: #fff;
+}
+
+.input-percentage {
+    position: relative;
+}
+
+.input-percentage .plus-minus-text {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 25px;
+    color: #224c5b;
+}
+
+.input-percentage input {
+    width: 100%;
+    max-width: 16%;
+    margin-top: 20px;
+    color: #224c5b;
+}
+
+.optimal-div .multi-input input {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.optimal-div .multi-input .input-percentage .plus-minus-text {
+    top: 6px;
+}
+
+.optimal-div .multi-input {
+    width: 100%;
+    max-width: 34%;
+}
+
+.optimal-div .multi-input label {
+    padding-top: 25px;
+    color: darkgray;
+}
+
+#manager .dateSelect {
+    margin-top: 40px;
+}
+
+#manager .dateSelect label {
+    width: 100%;
+}
+
+#manager .dateSelect .date-div {
+    width: 100%;
+    max-width: 60%;
+    position: relative;
+}
+
+#manager .dateSelect .date-div span {
+    position: absolute;
+    left: 9px;
+    top: 12px;
+    font-size: 18px;
+}
+
+#manager .dateSelect label {
+    font-weight: 400;
+}
+
+#manager .dateSelect .date-div select {
+    padding: 11px 10px 11px 42px;
+    border-color: #bceaea;
+    width: 100%;
+    font-size: 18px;
+}
+
+#manager .introDiv h4,
+#manager .activity-overview h4,
+#cerdit-card h4 {
+    font-size: 22px;
+    color: #224c5b;
+}
+
+#manager .introDiv .progress-image-div {
+    margin-top: 20px;
+}
+
+#manager .table-div-activity,
+#cerdit-card .all-notes-div .table-div {
+    width: 100%;
+    max-width: 80%;
+}
+
+#manager .table-performance-overview,
+.employeecontent #cerdit-card .table-performance-overview {
+    width: 100%;
+    max-width: 62%;
+}
+
+.table-div-activity table thead tr th:nth-child(1) {
+    padding-bottom: 0px !important;
+    width: 23%;
+    padding-top: 0px !important;
+}
+
+.table-div-activity table thead tr th:nth-child(3),
+.table-div-activity table thead tr th:nth-child(5),
+.table-div-activity table thead tr th:nth-child(6),
+.table-div-activity table thead tr th:last-child {
+    width: 15%
+}
+
+.table-div-activity table thead tr th:nth-child(4) {
+    width: 12%;
+}
+
+.employeecontent .table-div-activity table thead tr th:nth-child(4) {
+    width: 15%;
+}
+
+.table-div-activity table thead tr th {
+    padding: 10px !important;
+}
+
+.table-div-activity .table>thead>tr>th,
+.table-performance-overview .table>thead>tr>th {
+    padding: 15px 20px !important;
+}
+
+.table-div-activity .table>thead>tr>th {
+    vertical-align: middle !important;
+}
+
+.table-div-activity .table>thead>tr>th,
+.table-performance-overview .table>thead>tr>th {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.table-div-activity .table>tbody>tr>td {
+    vertical-align: middle;
+    padding: 10px 10px;
+    color: #224c5b;
+}
+
+#cerdit-card table tbody>tr>td:nth-child(4),
+#cerdit-card table tbody>tr>td:nth-child(3),
+.table-div-activity .table>tbody>tr>td:nth-child(3),
+.table-div-activity .table>tbody>tr>td:nth-child(4),
+.table-div-activity .table>tbody>tr>td:nth-child(5),
+.table-div-activity .table>tbody>tr>td:nth-child(6),
+.table-div-activity .table>tbody>tr>td:nth-child(7),
+.table-div-activity .table>tbody>tr>td:nth-child(8),
+.table-div-activity .table>tbody>tr>td:nth-child(9) {
+    text-align: center;
+}
+
+.table-performance-overview .table>thead,
+#cerdit-card .all-notes-div .table-div thead {
+    background-color: #feb4b4;
+}
+
+.table-performance-overview .table>tbody>tr>td {
+    color: #224c5b;
+}
+
+.change-date-div,
+.change-activity-overview {
+    display: none;
+}
+
+.change-date-div .table-div-activity {
+    max-width: 100% !important;
+}
+
+.change-date-div .table-div-activity .table>thead>tr>th:nth-child(2),
+.change-date-div .table-div-activity .table>thead>tr>th:nth-child(4),
+.change-date-div .table-div-activity .table>thead>tr>th:nth-child(5) {
+    width: 17%;
+}
+
+.change-date-div .table-div-activity .table>tbody>tr>td {
+    text-align: center;
+}
+
+.achieved-text {
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 25px;
+    display: none;
+}
+
+.achrived-target {
+    background-color: #A8E6B6 !important;
+}
+
+.below-target {
+    background-color: #FFA2A2 !important;
+}
+
+.text-color {
+    color: #FFA2A2;
+}
+
+.exceed-target {
+    background-color: #FCFFCA !important;
+}
+
+#cerdit-card label {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#cerdit-card .multiple-select {
+    width: 100%;
+    max-width: 50%;
+}
+
+#cerdit-card .multiple-select select,
+#cerdit-card .multiple-select input {
+    width: 100%;
+    padding: 11px 10px;
+    border: 1px solid #01b1b1;
+    border-radius: 2px;
+}
+
+#cerdit-card .multiple-select {
+    margin-top: 30px;
+}
+
+#cerdit-card .multiple-select label {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #767F89;
+}
+
+#cerdit-card table thead>tr>th {
+    padding: 5px 15px !important;
+    vertical-align: middle !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2A3A4B;
+}
+
+#cerdit-card table thead>tr>th:nth-child(1) {
+    width: 100%;
+    min-width: 180px;
+    font-weight: 600;
+    color: #224c5b;
+    font-size: 14px;
+}
+
+.employeecontent #cerdit-card .table-performance-overview table thead>tr>th:nth-child(1) {
+    width: initial !important;
+}
+
+.employeecontent #cerdit-card .table-performance-overview table thead>tr>th:nth-child(2) {
+    width: 47%;
+}
+
+.employeecontent #cerdit-card .table-div table thead>tr>th:nth-child(2) {
+    width: 100% !important;
+    min-width: 180px !important;
+}
+
+.employeecontent #cerdit-card .table-performance-overview table thead>tr>th {
+    font-size: 14px;
+    padding: 14px !important;
+    font-weight: 700;
+}
+
+.employeecontent #cerdit-card .activity-Table .table-performance-overview table thead>tr>th:nth-child(4) {
+    min-width: 175px !important;
+}
+
+.employeecontent #cerdit-card .table-card-div .table-performance-overview table>thead {
+    border-bottom: none !important;
+}
+
+#cerdit-card .employee-Table table thead>tr>th:nth-child(1) {
+    min-width: initial;
+}
+
+#cerdit-card table thead>tr>th:nth-child(2) {
+    text-align: center;
+}
+
+#cerdit-card table thead>tr>th:nth-child(3) {
+    width: 8%;
+}
+
+#cerdit-card table thead>tr>th:nth-child(4) {
+    width: 100%;
+    min-width: 102px;
+}
+
+#cerdit-card table thead>tr>th:nth-child(7) {
+    width: 10%;
+    min-width: 141px;
+}
+
+#cerdit-card .row-click-employee-data thead>tr>th:nth-child(5),
+#cerdit-card .row-click-application-data thead>tr>th:nth-child(5) {
+    width: 100%;
+    min-width: 156px !important;
+}
+
+#cerdit-card .row-click-employee-data thead>tr>th:nth-child(8),
+#cerdit-card .row-click-application-data thead>tr>th:nth-child(8) {
+    width: 100%;
+    min-width: 105px !important;
+}
+
+#cerdit-card .row-click-employee-data thead>tr>th:nth-child(7),
+#cerdit-card table thead>tr>th:nth-child(5),
+#cerdit-card table thead>tr>th:nth-child(6) {
+    width: 100%;
+    min-width: 136px;
+}
+
+#cerdit-card table tbody tr>td {
+    padding: 15px !important;
+}
+
+.employeecontent #cerdit-card table thead>tr>th:nth-child(8),
+.employeecontent #cerdit-card table thead>tr>th:nth-child(7),
+.employeecontent #cerdit-card table thead>tr>th:nth-child(6),
+#cerdit-card table tbody tr>td:nth-child(10),
+#cerdit-card table tbody tr>td:nth-child(11),
+#cerdit-card table tbody tr>td:nth-child(12),
+#cerdit-card table tbody tr>td:nth-child(13),
+#cerdit-card table tbody tr>td:nth-child(14),
+#cerdit-card table tbody tr>td:nth-child(15) {
+    position: relative;
+}
+
+#cerdit-card tfoot {
+    background: #2A3A4B;
+    color: #fff;
+}
+
+#cerdit-card tfoot tr>td {
+    padding: 15px 7px !important;
+}
+
+.parent-bar {
+    width: 324px;
+    height: 75%;
+    background: #E6E6E6;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.parent-bar-260 {
+    width: 260px;
+}
+
+.parent-bar-193 {
+    width: 193px;
+}
+
+.child-bar {
+    width: 98%;
+    background: #F67756;
+    height: 75%;
+    z-index: 2;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.bar-200 {
+    width: 200px;
+}
+
+.bar-335 {
+    width: 335px;
+}
+
+.bar-192 {
+    width: 192px;
+}
+
+.bar-255 {
+    width: 255px;
+}
+
+.bar-65-left-50 {
+    width: 100%;
+    max-width: 65%;
+    left: 50px;
+}
+
+.bar-60 {
+    width: 100%;
+    max-width: 60%;
+    left: 14px;
+}
+
+.bar-30 {
+    width: 100%;
+    max-width: 30%;
+    left: 0px;
+}
+
+.left-25 {
+    left: 25px;
+}
+
+.bar-130 {
+    width: 130px;
+}
+
+.bar-right-20 {
+    max-width: 20%;
+    right: 0;
+    left: auto;
+}
+
+.bar-30-left-26 {
+    width: 30%;
+    left: 26px;
+}
+
+.bar-30-left-40 {
+    width: 100%;
+    max-width: 30%;
+    left: 40px;
+}
+
+.left-15 {
+    left: 15px;
+}
+
+.bar-right {
+    right: 0;
+    left: initial;
+    width: 100%;
+    max-width: 30%;
+}
+
+.bar-70-left-39 {
+    width: 100%;
+    left: 39px;
+    max-width: 70%;
+}
+
+.bar-15 {
+    width: 100%;
+    max-width: 15%;
+}
+
+.bar-50 {
+    width: 100%;
+    max-width: 50%;
+}
+
+.employee-Table {
+    display: none;
+}
+
+#cerdit-card table {
+    background-color: #ffffff;
+}
+
+#cerdit-card .employee-Table table tbody>tr,
+#cerdit-card .table-card-div table tbody>tr {
+    cursor: pointer;
+}
+
+#cerdit-card .employee-Table table thead>tr>th:nth-child(1),
+.employeecontent #cerdit-card .table-div table thead>tr>th:nth-child(1) {
+    width: 5%;
+    border-left: 0px !important;
+    border-bottom: 5px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.employeecontent #cerdit-card .table-div table thead>tr>th:nth-child(1) {
+    min-width: initial !important;
+    width: initial !important;
+}
+
+.row-click-employee-data table thead>tr>th:nth-child(1),
+.row-click-application-data table thead>tr>th:nth-child(1) {
+    max-width: initial;
+    width: initial !important;
+}
+
+.row-click-employee-data table thead>tr>th:nth-child(4),
+.row-click-application-data table thead>tr>th:nth-child(4) {
+    width: 100% !important;
+    min-width: 156px !important;
+}
+
+.employeecontent #cerdit-card .table-div table thead>tr>th:nth-child(5),
+.employeecontent #cerdit-card .table-div table thead>tr>th:nth-child(8),
+.employeecontent #cerdit-card .activity-Table table thead>tr>th:nth-child(4),
+.employeecontent #cerdit-card .activity-Table .table thead>tr>th:nth-child(3),
+.row-click-employee-data table thead>tr>th:nth-child(3),
+#cerdit-card .employee-Table table thead>tr>th:nth-child(2),
+#cerdit-card .employee-Table table thead>tr>th:nth-child(4) {
+    width: 100% !important;
+    min-width: 140px !important;
+}
+
+#cerdit-card .employee-Table table thead>tr>th {
+    padding: 6px 15px !important;
+}
+
+#cerdit-card .employee-Table table thead>tr>th:nth-child(4),
+#cerdit-card .employee-Table table thead>tr>th:nth-child(5) {
+    width: 14%;
+}
+
+#cerdit-card .employee-Table table thead>tr>th:nth-child(6),
+#cerdit-card .employee-Table table thead>tr>th:nth-child(7) {
+    width: 14%;
+}
+
+#cerdit-card .employee-Table table thead>tr>th:nth-child(8),
+.row-click-employee-data table thead>tr>th:nth-child(7) {
+    width: 100%;
+    min-width: 134px !important;
+}
+
+.employeecontent #cerdit-card .table-div .table-bordered>tbody>tr>td:nth-child(1),
+#cerdit-card .row-click-application-data .table-bordered>tbody>tr>td:nth-child(1),
+#cerdit-card .employee-Table .table-bordered>tbody>tr>td:nth-child(1),
+#cerdit-card .row-click-employee-data .table-bordered>tbody>tr>td:nth-child(1),
+#cerdit-card .row-click-application-data .table-bordered>tbody>tr>td:nth-child(1) {
+    border-width: 0px !important;
+    position: relative;
+}
+
+#cerdit-card .row-click-employee-data .table-bordered>thead>tr>th:nth-child(2),
+#cerdit-card .row-click-application-data .table-bordered>thead>tr>th:nth-child(2) {
+    width: 100% !important;
+    min-width: 180px !important;
+    text-align: left;
+}
+
+#cerdit-card .row-click-employee-data .table-bordered>thead>tr>th:nth-child(3),
+#cerdit-card .row-click-application-data .table-bordered>thead>tr>th:nth-child(3) {
+    width: 100% !important;
+    min-width: 90px !important;
+}
+
+#cerdit-card .row-click-employee-data .table-bordered>thead>tr>th:nth-child(1),
+#cerdit-card .row-click-application-data .table-bordered>thead>tr>th:nth-child(1) {
+    min-width: initial !important;
+    border: 0px !important;
+    border-bottom: 5px solid #fff !important;
+    border-top: 1px solid #fff !important;
+}
+
+.employeecontent #cerdit-card .table-div table,
+#cerdit-card .employee-Table table,
+#cerdit-card .row-click-employee-data table,
+#cerdit-card .row-click-application-data table {
+    border-left: 0px !important;
+}
+
+.employeecontent #cerdit-card .table-div table>tfoot>tr>td:nth-child(1),
+#cerdit-card .employee-Table table>tfoot>tr>td:nth-child(1),
+#cerdit-card .row-click-employee-data table>tfoot>tr>td:nth-child(1),
+#cerdit-card .row-click-application-data table>tfoot>tr>td:nth-child(1) {
+    background-color: #fff !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-bottom: 1px solid #fff;
+    color: #5a5d5a;
+    text-align: center;
+}
+// #cerdit-card .employee-Table
+ .open-box {
+    position: absolute;
+    z-index: 999999;
+    background: #ffff;
+    left: 51px;
+    top: 12px;
+    // width: 100%;
+    min-width: 234px;
+    padding: 10px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(163, 160, 163, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(163, 160, 163, 1);
+    box-shadow: 2px 2px 5px 0px rgba(163, 160, 163, 1);
+    display: none;
+}
+// #cerdit-card .employee-Table
+.open-box .info-Box {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eeee;
+}
+// #cerdit-card .employee-Table
+.open-box .info-Box i {
+    font-size: 25px;
+    padding-right: 20px;
+}
+// #cerdit-card .employee-Table
+// #cerdit-card .employee-Table .open-box .info-Box .name-Box,
+.btn-Box {
+    text-align: left;
+}
+// #cerdit-card .employee-Table
+.open-box .info-Box .name-Box h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+// #cerdit-card .employee-Table
+.open-box .info-Box .name-Box p {
+    padding-top: 5px;
+    font-size: 14px;
+}
+// #cerdit-card .employee-Table
+.open-box .detail-Box {
+    text-align: left;
+    padding: 10px 0px;
+}
+// #cerdit-card .employee-Table
+.open-box .detail-Box p {
+    padding: 5px 0px;
+}
+// #cerdit-card .employee-Table
+.note-Box {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+// #cerdit-card .employee-Table
+.note-Box p {
+    font-size: 11px;
+    padding: 5px 0px;
+}
+// #cerdit-card .employee-Table
+.btn-Box a:nth-child(1) {
+    background: #00adff8a;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #2e4050;
+    font-size: 11px;
+    margin-right: 20px;
+}
+// #cerdit-card .employee-Table
+.btn-Box a {
+    font-size: 11px;
+    color: #2e4050;
+    cursor: pointer;
+}
+
+// #cerdit-card .row-click-employee-data,
+// .row-click-application-data {
+//     display: none;
+// }
+.backIconText {
+    font-size: 21px;
+    padding: 10px 0px;
+    color: #224c5b;
+    cursor: pointer;
+}
+
+.backIcon {
+    font-size: 21px;
+    padding: 10px 0px;
+    color: #224c5b;
+    cursor: pointer;
+    display: none;
+}
+
+// #cerdit-card .row-click-employee-data table>thead,
+// #cerdit-card .table-card-div table>thead {
+//     border-bottom: 5px solid #01b1b1;
+// }
+
+#cerdit-card .row-click-employee-data tbody>tr>td {
+    position: relative;
+}
+
+// #cerdit-card .row-click-employee-data tbody>tr>td:nth-child(6),
+// #cerdit-card .table-card-div tbody>tr>td:nth-child(6) {
+//     border-right: 3px solid #01b1b1;
+// }
+
+#cerdit-card .all-notes-div .table-div thead {
+    border-bottom: 0px;
+}
+
+#cerdit-card .all-notes-div .table-div thead tr>th {
+    padding: 17px !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#cerdit-card .all-notes-div .table-div thead tr>th:nth-child(1) {
+    width: 8%;
+}
+
+#cerdit-card .all-notes-div .table-div thead tr>th:nth-child(2) {
+    text-align: left;
+}
+
+#cerdit-card .all-notes-div .table-div tbody tr>td {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.activity-Overview-text,
+.activity-trend h4 {
+    margin-bottom: 30px;
+}
+
+.all-notes-div table thead tr th:nth-child(2) {
+    width: 20%;
+}
+
+#cerdit-card .row-click-employee-data .all-notes-div .table-bordered>tbody>tr>td:nth-child(1),
+#cerdit-card .row-click-application-data .all-notes-div .table-bordered>tbody>tr>td:nth-child(1) {
+    border-width: 1px !important;
+}
+
+#cerdit-card .row-click-employee-data .all-notes-div .table-bordered>thead>tr>th:nth-child(1),
+#cerdit-card .row-click-application-data .all-notes-div .table-bordered>thead>tr>th:nth-child(1) {
+    width: initial !important;
+    min-width: 151px !important;
+    border-bottom: initial !important;
+}
+
+#cerdit-card .row-click-employee-data .all-notes-div .table-bordered>thead>tr>th:nth-child(2),
+#cerdit-card .row-click-application-data .all-notes-div .table-bordered>thead>tr>th:nth-child(2) {
+    width: initial !important;
+}
+
+.week-by-week {
+    display: none;
+}
+
+.week-by-week tbody tr {
+    display: none;
+}
+
+#cerdit-card .activity-Table table thead>tr>th:nth-child(1) i:last-child {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.downArrow {
+    position: absolute;
+    left: -13px;
+    font-size: 23px;
+    top: 17px;
+    display: none;
+}
+
+.infoIcon {
+    font-size: 10px;
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    color: gray;
+    cursor: pointer;
+}
+
+.selectMonth {
+    display: none;
+}
+
+#cerdit-card .cerdit-card-select {
+    border: none;
+    color: #2A3A4B;
+    font-size: 22px;
+}
+
+#cerdit-card .cerdit-card-select i {
+    margin-left: 15px;
+}
+
+.credit-card-drop-down ul {
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.credit-card-drop-down ul li {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.credit-card-drop-down ul li:hover {
+    background-color: #ccc;
+}
+
+.credit-card-drop-down {
+    width: 100%;
+    max-width: 16%;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+    z-index: 99999;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+}
+
+.icondiv {
+    position: relative;
+}
+
+.icondiv i {
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    font-size: 22px;
+}
+
+// .calender-Div i {
+//     font-size: 22px;
+// }
+
+
+/******************* Custom Check Box *************/
+
+
+/* The container */
+
+.radioBox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.radioBox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: -14px;
+    right: 46px;
+    height: 22px;
+    width: 22px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.radioBox input:checked~.checkmark {
+    background-color: #2a3a4b;
+    border-radius: 100%;
+    border: none;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.radioBox input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.radioBox .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*************** End Custom Radio Button *************/
+
+.employee .calender-Div {
+    max-width: 50% !important;
+    background-color: #fff;
+}
+
+
+/*************** Logi Page ***************************/
+
+#main .loginContent .main_header {
+    width: 100%;
+}
+
+#main .loginContent .modal-header {
+    padding: 25px 15px;
+    background: linear-gradient(87deg, rgba(35, 75, 90, 1) 0%, rgba(23, 103, 116, 1) 50%, rgba(14, 125, 135, 1) 100%);
+}
+
+#main .loginContent .modal-content {
+    border-radius: 0px;
+}
+
+#main .loginContent .modal-header .welcomeTxt {
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 26px;
+}
+
+#main .loginContent .modal-body .formDiv {
+    width: 100%;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 0px 30px;
+}
+
+.formDiv .row .col-lg-12 {
+    margin-top: 20px;
+}
+
+#main .loginContent .modal-body .formDiv label {
+    width: 100%;
+    margin-bottom: 13px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2a3a4b;
+}
+
+#main .loginContent .modal-body .formDiv .input-form {
+    width: 100%;
+}
+
+#main .loginContent .modal-body .formDiv .loginBtn {
+    margin-top: 25px;
+    border: navajowhite;
+    width: 100%;
+    padding: 10px 10px;
+    -webkit-box-shadow: 0 4px 2px -2px #ccc;
+    -moz-box-shadow: 0 4px 2px -2px #ccc;
+    box-shadow: 0px 3px 8px #ccc;
+    border-radius: 5px;
+    background: #ffa189;
+    color: #2a3a4b;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main .loginContent .modal-body .formDiv .forgetBtn {
+    margin-top: 40px;
+    border: navajowhite;
+    width: 100%;
+    padding: 10px 10px;
+    -webkit-box-shadow: 0 4px 2px -2px #ccc;
+    -moz-box-shadow: 0 4px 2px -2px #ccc;
+    box-shadow: 0px 3px 8px #ccc;
+    border-radius: 5px;
+    background: #2a3a4b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main .loginContent .modal-body {
+    background: #f5f8fa;
+    margin-bottom: 80px;
+}
+
+#manager .change-date-div thead tr>th:nth-child(6) {
+    width: 100%;
+    min-width: 118px;
+}
+
+#manager .change-date-div thead tr>th:nth-child(4),
+#manager .change-date-div thead tr>th:nth-child(5) {
+    width: 100%;
+    min-width: 130px;
+}
+
+#manager .change-date-div thead tr>th:nth-child(2),
+#manager .change-date-div thead tr>th:nth-child(3) {
+    width: 100%;
+    min-width: 121px;
+}
+
+#manager .change-date-div thead tr>th:nth-child(1) {
+    width: 100%;
+    min-width: 180px;
+}
+
+#manager .change-date-div .table-performance-overview {
+    max-width: 52% !important;
+}
+
+
+/***************** Login Page - End ******************/
+
+#manager .calender-Div {
+    position: relative;
+}
+
+#manager .calender-Div .managerchangeText {
+    position: absolute;
+    left: 40px;
+}
+
+#manager .calender-Div .fa-caret-down {
+    position: absolute;
+    right: 6px;
+    top: 12px;
+}
+#assignActivity .firstTd{
+    padding: 85px 30px;
+    border-right: 2px solid #ddd !important;
+}
+#assignActivity .commonTd{
+    background-color: #fff !important;
+}
+#assignActivity .commonTd tr>td{
+    padding: 10px 0px;
+}
+#assignActivity .commonTd{
+    padding: 8px 15px;
+}
+.rightBorder{
+    border-right: 2px solid #ddd !important;
+}
+.rowBackground td{
+    background-color: #c0ebeb !important;
+}
+.percentageDiv{
+    position: relative;
+}
+.percentageDiv span{
+    position: absolute;
+    left: 35px;
+}
+.tooltipRow{
+    position: relative;
+}
+.tooltipTdTwo,.tooltipTd,.tooltipOne,.tooltipTdOne{
+    position: relative;
+}
+.tooltipRow .tooltipTd .tooltipData{
+    z-index: 9999999;
+    position: absolute;
+    top: -59px;
+    right: 0px;
+    // height: 68px;
+    width: 169px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 3px 0 #2A3A4B;
+    padding: 6px;
+    font-size: 12px;
+    display: none;
+}
+.tooltipTdOne .tooltipData{
+    position: absolute;
+    top: -59px;
+    right: 0px;
+    // height: 68px;
+    width: 169px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 3px 0 #2A3A4B;
+    padding: 6px;
+    font-size: 12px;
+    display: none;
+}
+.tooltipData{
+    position: absolute;
+    top: -59px;
+    right:0px;
+    // height: 68px;
+    width: 169px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 3px 0 #2A3A4B;
+    padding: 6px;
+    font-size: 12px;
+    display: none;
+}
+.positionChanged{
+    position: initial !important;
+}
+.positionChangedOne{
+    position: initial !important;
+
+}
+.positionChangedOne .infoIcon {
+    position: absolute;
+    right: 6px;
+    left: 75%;
+}
+.tooltipRow .positionChangedOne .tooltipData{
+    top: -66px !important;
+    right: 19% !important;
+}
+.positionChangedTwo{
+    position: initial !important;
+}
+.positionChangedTwo .infoIcon {
+    position: absolute;
+    right: 6px;
+    left: 89%;
+}
+.tooltipRow .positionChangedTwo .tooltipData{
+    top: -66px !important;
+    right: 8% !important;
+}
+
+.positionChanged .infoIcon {
+    position: absolute;
+    right: 6px;
+    left: 66%;
+}
+.tooltipRow .positionChanged .tooltipData{
+    top: -66px !important;
+    right: 29% !important;
+}
+
+.no-shadow {
+    box-shadow: 0px 3px 8px transparent !important;
+}
+/************** Media-Query ************/
+// @media only screen and (min-width: 1500px) {
+// .employeeDetailTable .tooltipTd .infoIcon{
+//     left: 58%;
+// }
+// .employeeDetailTable .positionChangedOne .infoIcon{
+//     left: 69%;
+// }
+// .employeeDetailTable .positionChangedTwo .infoIcon{
+//     left: 80%;
+// }
+// .divisionCredit .tooltipTdTwo .infoIcon{
+//     left: 65%;
+// }
+// .allEmployee .tooltipTd .infoIcon{
+//     left: 51%;
+// }
+// .allEmployee .tooltipTdOne .infoIcon {
+//     left: 62%;
+// }
+
+// }
+// @media only screen and (max-width: 1500px) {
+//     .divisionCredit .tooltipTdTwo .infoIcon{
+//         left: 73%;
+//     }
+// }
+// @media only screen and (max-width: 1300px) {
+//     .divisionCredit .tooltipTdTwo .infoIcon{
+//         left: 76%;
+//     }
+// }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+
+  /* Tooltip text */
+ .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltop:hover .tooltiptext {
+    visibility: visible;
+  }
+  .table-responsive{
+      overflow: visible;
+  }
+
+
+table > thead > th {
+    text-align: left !important;
+}
+
+table > tbody > td {
+    text-align: left !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    #manager .managerLabelText,
+    #manager .table-div-credit-card {
+        max-width: 100% !important;
+    }
+    #cerdit-card .calender-Box {
+        top: 80%;
+        left: 24%;
+        max-width: 70%;
+    }
+    #cerdit-card .activity-Table .triangle {
+        top: 76px;
+    }
+    #cerdit-card .multiple-select {
+        max-width: 80%;
+    }
+    #manager,
+    #cerdit-card {
+        padding: 12px 50px;
+    }
+    #manager .calender-Div {
+        max-width: 100%;
+    }
+    #manager .calender-Box {
+        max-width: 100%;
+        top: 81%;
+        left: 93%;
+    }
+    #manager .introDiv .img-div {
+        padding-left: 0px !important;
+        text-align: left !important;
+    }
+    #manager .introDiv .img-div h4 {
+        display: initial !important;
+        font-size: 15px;
+    }
+    #manager .introDiv .img-div h4 span {
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .main_header {
+        position: fixed;
+        top: 0;
+    }
+    #main .maincontent .mainContent {
+        margin-top: 112px;
+    }
+    #main .maincontent #card .tabs-content {
+        padding: 30px 20px;
+    }
+    #main .maincontent #card .tabs-content .create-new-activity {
+        text-align: right;
+    }
+    #main .maincontent #card .tabs-content .assignActivityDiv .tableDiv {
+        max-width: 90%;
+    }
+    #manager .table-div-activity,
+    #main .maincontent #card .tabs-content .assignActivityDiv .tableDiv {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .credit-card-drop-down {
+        max-width: 30%;
+    }
+    .row-click-application-data .calender-Box {
+        left: initial !important;
+        right: 5% !important;
+        max-width: 40% !important;
+    }
+    #cerdit-card .calender-Box {
+        left: 16%;
+    }
+    #manager,
+    #cerdit-card {
+        padding: 40px;
+    }
+    #main .maincontent .mainContent {
+        margin-top: 70px;
+    }
+    .sideNav .siteName h4 {
+        font-size: 25px;
+    }
+    .main_header p {
+        padding: 27px;
+        font-size: 15px;
+    }
+    .main_header .loginText {
+        padding: 27px;
+        text-align: right;
+        font-size: 15px;
+    }
+    .loginText {
+        display: none;
+    }
+    #cerdit-card .multiple-select {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .credit-card-drop-down {
+        max-width: 40%;
+    }
+    #cerdit-card .calender-Box {
+        left: 26%;
+    }
+    #cerdit-card .activity-Table .triangle {
+        top: 36px;
+    }
+    #main .sideNav {
+        width: 70px;
+    }
+    .sideNav .siteName {
+        padding: 20px 12px;
+    }
+    .sideNav .siteName h4 {
+        font-size: 15px;
+        padding: 28px 0px;
+    }
+    #manager .introDiv h4 {
+        margin-top: 0px !important;
+    }
+    #main .sideNav .nav-tabs>li a {
+        font-size: 30px;
+    }
+    #main .maincontent {
+        width: calc(100% - 70px);
+        margin-left: 70px;
+    }
+    .main_header {
+        width: calc(100% - 70px);
+    }
+    #manager .calender-Box {
+        max-width: 50%;
+        top: 70%;
+        left: 46%;
+    }
+    #manager .calender-Box .form-Div {
+        margin-bottom: 15px;
+    }
+    .table-div-activity table thead>tr>th {
+        padding: 15px 20px !important;
+    }
+    #manager .dateSelect {
+        margin-bottom: 40px;
+    }
+    #main .maincontent #card .tabs-content .create-new-activity {
+        text-align: left;
+        margin-top: 40px;
+    }
+    #main .maincontent #card .tabs-content #activity .selectDiv .assignBySelect {
+        margin-left: 0px;
+    }
+    #main .maincontent #card .tabs-content .create-new-activity .createActivity#main .maincontent #card .tabs-content .create-new-activity .editActivityText {
+        max-width: 80%;
+    }
+    #main .maincontent #card .tabs-content .create-new-activity .editActivityText {
+        text-align: left;
+    }
+    .create-new-activity,
+    #main .maincontent #card .tabs-content #activity .selectDiv {
+        display: grid;
+    }
+    #main .maincontent .mainContent {
+        margin-top: 50px;
+    }
+    #manager .introDiv h4 {
+        margin-top: 40px;
+    }
+    .main_header p,
+    .main_header .loginText {
+        padding: 27px 0px;
+        font-size: 15px;
+    }
+    .table-responsive {
+        margin-bottom: 0px;
+    }
+    #cerdit-card .row-click-employee-data .all-notes-div .table-div,
+    #manager .table-performance-overview,
+    #cerdit-card .row-click-application-data .all-notes-div .table-div {
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .main_header p {
+        padding: 25px 0px;
+        font-size: 14px;
+    }
+    .credit-card-drop-down {
+        max-width: 60%;
+    }
+    .managerLabelText label {
+        font-size: 12px !important;
+    }
+    #manager .table-div-activity {
+        margin-top: 20px;
+    }
+    .row-click-application-data .calender-Box {
+        max-width: 90% !important;
+    }
+    .infoIcon {
+        top: 1px;
+        right: 1px;
+    }
+    #cerdit-card .calender-Box {
+        left: 6%;
+        min-width: initial;
+        max-width: 87%;
+    }
+    #manager .calender-Box {
+        max-width: 90%;
+        top: 73%;
+        left: 4%;
+    }
+    #manager .calender-Box .form-Div {
+        margin-bottom: 15px;
+    }
+    #main .maincontent #card .tabs-content #activity p {
+        margin-bottom: 20px;
+    }
+    .create-activity-form-div .form-Div .select-division-departmet,
+    .create-activity-form-div .form-Div .allocate-activity-div {
+        max-width: 100%;
+    }
+    .create-activity-form-div .input-form,
+    .create-activity-form-div select {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #main .maincontent .tabs-Div .nav-tabs {
+        padding: 0px;
+    }
+    #main .maincontent .tabs-Div .nav-tabs>li {
+        width: 100%;
+    }
+    #main .maincontent .tabs-Div .nav-tabs>li:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    #main .maincontent .tabs-Div .nav-tabs>li:nth-child(2) {
+        margin-left: 0px;
+    }
+    .user-profile-name {
+        display: none;
+    }
+    #manager .table-performance-overview,
+    .optimal-div .multi-input,
+    .optimal-div .multi-input input,
+    .input-percentage input,
+    .multiple-select-options,
+    #main .maincontent #card .tabs-content .create-new-activity .createActivity,
+    #main .maincontent #card .tabs-content .create-new-activity .editActivityText {
+        max-width: 100%;
+    }
+    #main .maincontent #card .tabs-content .assignActivityDiv {
+        margin-top: 50px;
+    }
+    #manager {
+        padding: 46px 16px !important;
+    }
+}
+
+.customFoucs {
+    background: #E6E6E6;
+    padding: 9px;
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
+}
+
+.customWorking {
+    background: #F67756;
+    ;
+    padding: 9px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.focusBar {
+    height: 75%;
+    background: #E6E6E6;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.workingColor {
+    background: #F67756;
+    height: 75%;
+    z-index: 2;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    // margin-left: 50%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.trendCenter {
+    text-align: center;
+}
+
+.login-logo {
+    font-size: 21pt;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 0px;
+}
+.bgwhite{
+    background-color: #fff !important;
+}
+
+.calender-Box-modified{
+    width:150% !important;
+    left:75% !important;
+}
+
+.credit-calender, .m-all-employee-calender, .weakly-cal{
+    width:135% !important;
+}
+
+.emp-details-cal{
+    width: 111% !important;
+}
+
+.employeeDetailTable {
+    .table-responsive {
+        overflow-x: auto;
+        overflow-y: hidden;
+        div#insertData {
+            width: 100%;
+            height: calc(100% - 100px);
+            position: absolute;
+            top: 36px;
+            @media screen and (min-width:768px) {
+                top: 56px;
+            }
+            z-index: 9;
+            table {
+                background-color: transparent;
+                tr {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+
+                    td {
+                        position: absolute;
+                        svg {
+                            height: auto;
+                        }
+                    }
+                }
+            }
+            .firstTable {
+                position: absolute;
+                tr {
+                    td {
+                        padding: 5px 15px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        background-color: #c0ebeb;
+                        &:first-child {
+                            &:before {
+                                background-color: #fff;
+                            }
+                        }
+                        &:before {
+                            content: '';
+                            width: 100%;
+                            height: 5px;
+                            background-color: #01b1b1;
+                            display: inline-block;
+                            position: absolute;
+                            bottom: 0;
+                        }
+
+                    }
+                }
+            }
+            .secondTable {
+                height: calc(100% - 56px);
+                tr {
+                    td {
+                        &:nth-child(2) {
+                            &:after {
+                                content: "";
+                                border-width: 28px 28px 0 0;
+                                border-color: #ffff00 transparent transparent transparent;
+                                border-style: solid;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .thirdTable {
+                tr {
+                    td {
+                        padding: 15px 7px;
+                        top: 370px;
+                        min-height: 53px;
+                        background-color: #2a3a4b;
+                        color: #fff;
+                        width: 42px;
+                        border-bottom:1px solid #ddd;
+                        &:first-child {
+                            background-color: #fff;
+                            width: 42px;
+                        }
+                        &:nth-child(2) {
+                            left: 42px;
+                        }
+                    }
+                }
+            }
+        }
+        tfoot {
+            tr {
+                td {
+                    min-height: 53px;
+                }
+            }
+        }
+    }
+    .tooltipRow .tooltipTd .tooltipData {
+        top: 22px;
+    }
+    .tooltipTdOne .tooltipData {
+        top: 22px;
+    }
+    .tooltipData {
+        top: 22px;
+    }
+}
+
+
+.activity-Table.scroll-table {
+    overflow: hidden;
+}
+
+.employeecontent #cerdit-card .performance-overview .table-performance-overview {
+    max-width: 100% !important;
+}
+
+.employeecontent {
+    #cerdit-card .table-div .table-bordered{
+        margin-left: 377px;
+        border-collapse: separate;
+        thead {
+            tr {
+                position: relative;
+                &>th {
+                    top: 0;
+                    border-bottom: 5px solid #01b1b1;
+                    height: 56px;
+                    white-space: nowrap;
+                    span {
+                        white-space: break-spaces;
+                    }
+                    &:nth-child(1) {
+                        width: 58px !important;
+                        position: absolute;
+                        height: 57px;
+                        left: 15px;
+                        background-color: #fff;
+                        z-index: 9;
+                        border-bottom: 5px solid #fff;
+                        border-right: 0;
+                    }
+                    &:nth-child(2) {
+                        width: 180px!important;
+                        position: absolute;
+                        height: 57px;
+                        left: 57px;
+                        background-color: #c0ebeb;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        z-index: 9;
+                        margin-left: 16px;
+                        border-bottom: 5px solid #01b1b1;
+                    }
+                    &:nth-child(3) {
+                        width: 140px!important;
+                        position: absolute;
+                        left: 237px;
+                        background-color: #fff;
+                        z-index: 0;
+                        margin-left: 16px;
+                        background-color: #c0ebeb;
+                        border-bottom: 5px solid #01b1b1;
+                    }
+                }
+            }
+        }
+        tfoot {
+           tr {
+               position: relative;
+               td {
+                   min-height: auto;
+                   height: 54px;
+                &:nth-child(1) {
+                    width: 58px !important;
+                    position: absolute;
+                    height: 54px;
+                    left: 15px;
+                    background-color: #fff;
+                    z-index: 9;
+                    border-bottom: 1px solid #fff;
+                }
+                &:nth-child(2) {
+                    width: 320px;
+                    position: absolute;
+                    height: 54px;
+                    left: 57px;
+                    background-color: #2A394B;
+                    z-index: 9;
+                    margin-left: 16px;
+
+                }
+               }
+           }
+        }
+
+        &> tbody > tr {
+            position: relative;
+            height: 73px;
+            &>td {
+                &:nth-child(1) {
+                    width: 58px !important;
+                    position: absolute;
+                    height: 73px;
+                    left: 15px;
+                    background-color: #fff;
+                    z-index: 9;
+                }
+                &:nth-child(2) {
+                    width: 180px;
+                    position: absolute;
+                    height: 73px;
+                    left: 57px;
+                    background-color: #fff;
+                    z-index: 9;
+                    margin-left: 16px;
+
+                }
+                &:nth-child(3) {
+                    width: 140px;
+                    position: absolute;
+                    height: 73px;
+                    left: 237px;
+                    background-color: #fff;
+                    z-index: 0;
+                    margin-left: 16px;
+                    svg {
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.table-performance-overview {
+    .table-responsive > div {
+
+        table {
+            max-width: 1300px;
+            width: auto;
+            thead {
+                tr {
+                    display: block;
+                    td {
+                        width: 150px;
+                        @media screen and(min-width:1200px){
+                            width: 200px;
+                        }
+                        @media screen and(min-width:1300px){
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+            tbody {
+                display: block;
+                overflow: auto;
+                padding-left: 0px;
+                width: 100%;
+                max-height: 520px;
+                tr {
+                    display: block;
+                    td {
+                        width: 150px;
+                        @media screen and(min-width:1200px){
+                            width: 200px;
+                        }
+                        @media screen and(min-width:1300px){
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.focusBar{
+    left: 0;
+}
+.employeecontent #cerdit-card .table-div .table-bordered thead tr > th:nth-child(3){
+    position: relative;
+    left: 0;
+    margin: 0;
+}
+.employeecontent #cerdit-card .table-div .table-bordered > tbody > tr > td:nth-child(3){
+    position: relative;
+    left: 0;
+    margin: 0;
+}
+
+.employeecontent #cerdit-card .table-div .table-bordered tfoot tr td:nth-child(2){
+    width: 180px;
+}
+
+.employeecontent #cerdit-card .table-div .table-bordered{
+    margin-left: 236px
+}
+.employeecontent #cerdit-card .table-div table thead > tr > th:nth-child(8){
+    min-width: auto !important;
+}
+
+#operation .tableDiv table tbody tr td {
+    padding: 20px 12px 20px 12px !important;
+    vertical-align: middle;
+}
+td .form-control{margin-left: auto!important;margin-right: auto!important;}
+#operation .tableDiv tbody tr td{font-size: 13px;}
+#main .maincontent{
+  width: 100%;
+  margin-left: 0;
+}
+#main .maincontent.employeecontent {
+   width: 100%!important;
+  margin-left: 0px!important;
+  padding-left: 120px!important;
+
+}
+.main_header{right: 0;}
+.main-tabs-content .container-fluid{padding: 0;}
+.welcomeTxt{display: none;}
+.login-logo{width: 100%!important;text-align: center;}
+#main .loginContent .modal-body{margin-bottom: 0;padding-bottom: 80px;}
+#main .loginContent .modal-body .formDiv .input-form{margin-top: 0;}
+#main .loginContent .modal-body .formDiv label {margin-bottom: 7px;font-size: 18px;}
+#main .loginContent .modal-body .formDiv .forgetBtn{margin-top: 25px;}
+#main .loginContent .modal-body .formDiv .loginBtn{margin-top: 7px;}
+.loginContent {
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#main .loginContent .modal-body .formDiv{margin-top: 40px;}
+#main .sideNav .nav-tabs > li a{position: relative;}
+#main .sideNav .nav-tabs > li a.router-link-active:after{
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: 20%;
+  bottom: 20%;
+  width: 5px;
+  border-radius: 5px;
+  background: #30b4c6;
+}
+#main .sideNav .nav-tabs > li.active {border-right:none;}
+#manager, #cerdit-card {padding: 40px 50px;}
+#manager .dateSelect {margin-top: 20px;}
+.employeecontent #cerdit-card .performance-overview .table-performance-overview, #cerdit-card .all-notes-div .table-div, #cerdit-card .all-notes-div, #cerdit-card .table-card-div, .editActivity .drop-down-div, #manager .activity-overview, #manager .table-div-activity, #manager .table-performance-overview {
+  margin-top: 20px;
+}
+td.achrived-target{text-align: center!important;}
+#main .maincontent #card .tabs-content .assignActivityDiv {margin-top: 20px;}
+#main .maincontent #card .tabs-content{padding: 20px 50px;}
+.addActivity{padding: 10px 11px;}
+#main .maincontent .tabs-Div{margin-bottom: 20px;}
+#finish-exsisting-location, #operation .tableDiv{margin-top: 20px;}
+.manage-activity-div .selectDiv:first-of-type{margin-top: 0!important;}
+#finishButtonDiv, #finishLoanButtonDiv, #finishTableButtonDiv, #finishTargetButtonDiv, #finishOptimalButtonDiv{margin-top: 20px;}
+.siteName[data-v-0dca7f96] {height: 71px !important;}
+#main .maincontent.employeecontent[data-v-14f6a754],#main .maincontent.employeecontent[data-v-33f52532]{padding-left: 0!important;}
+#assignActivity .firstTd {padding: 8px;}
+#main .maincontent #card .tabs-content .create-new-activity .editActivityText {
+    background: #2a3a4b;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 60%;
+    margin-bottom: 10px;
+    border: none;
+}
+label{margin-bottom: 3px;}
+.nav-tabs li:not(:last-child){
+  position: relative;
+}
+.nav-tabs li:not(:last-child):after{
+  content: '';
+  position: absolute;
+  width: 1px;
+  background: #ddd;
+  top: 0;bottom: 0;
+  right: -12px;
+}
+.editActivity .drop-down-div select, .editActivity .drop-down-div .custom-field input{margin-top: 0;}
+.editActivity .drop-down-div p{margin:5px 0;}
+.drop-down-div{margin-bottom: 20px;}
